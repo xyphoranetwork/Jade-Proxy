@@ -5,13 +5,15 @@
     <title>Home | Jade</title>
     <link rel="stylesheet" href="/storage/css/styles.css">
     <link rel="icon" type="image/x-icon" href="/storage/images/jade.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="/games.html">Games</a></li>
-            <li><a href="/apps.html">Apps</a></li>
-            <li><a href="/credits.html">Credits</a></li>
+            <li><a href="/games.html">HOME</a></li>
+            <li><a href="/games.html">GAMES</a></li>
+            <li><a href="/apps.html">APPS</a></li>
+            <li><a href="/credits.html">CREDITS</a></li>
         </ul>
     </nav>
     
@@ -23,7 +25,7 @@
         <form id="uv-form"">
             <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/>
             <input id="uv-address" type="text" class="search-bar" placeholder="Start by imputting link or searching with UV..." />
-            <button id="search-button" onclick="submitSearch()">GO!</button>
+            <button id="search-button" onclick="submitSearch()">GO <i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
          
         <div class="desc left-margin">
