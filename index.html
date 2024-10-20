@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Jade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/games.html">Games</a></li>
+            <li><a href="/apps.html">Apps</a></li>
+            <li><a href="/credits.html">Credits</a></li>
+        </ul>
+    </nav>
+    
+    <h1 style="margin-top: 100px;">Jade Proxy</h1>
+    
+    <p id="dynamic-text" onclick="changeText()"></p>
+    
+    <div id="search-container">
+        <input type="text" id="search-bar" placeholder="Start by imputting link or searching with UV..." />
+        <button id="search-button" onclick="submitSearch()">Search</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
