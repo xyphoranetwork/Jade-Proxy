@@ -56,7 +56,7 @@ body {
     margin-top: 30px;
 }
 
-#search-bar {
+.search-bar {
     padding: 20px;
     width: 300px;
     border: 2px solid #3b8f55;
