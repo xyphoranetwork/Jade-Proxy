@@ -60,12 +60,13 @@ body {
 
 .search-bar {
     padding: 20px;
-    width: 300px;
+    width: 400px;
     border: 2px solid #3b8f55;
     background-color: #42a160;
     border-radius: 50px;
     outline: none;
     color: white;
+    font-family: "Outfit", sans-serif;
 }
 
 #search-button {
@@ -78,6 +79,7 @@ body {
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: "Outfit", sans-serif;
 }
 
 #search-button:hover {
