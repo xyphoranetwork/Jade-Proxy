@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Jade</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/storage/css/styles.css">
 </head>
 <body>
     <nav class="navbar">
@@ -20,10 +19,22 @@
     <p id="dynamic-text" onclick="changeText()"></p>
     
     <div id="search-container">
-        <input type="text" id="search-bar" placeholder="Start by imputting link or searching with UV..." />
-        <button id="search-button" onclick="submitSearch()">Search</button>
+        <form id="uv-form"">
+            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/>
+            <input id="uv-address" type="text" id="search-bar" placeholder="Start by imputting link or searching with UV..." />
+        </form>
+         <button id="search-button" onclick="submitSearch()">GO!</button>
+        <div class="desc left-margin">
+            <p id="uv-error"></p>
+            <pre id="uv-error-code"></pre>
+          </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="/storage/js/script.js"></script>
+    <script src="/static/uv/uv.bundle.js" defer></script>
+    <script src="/static/uv/uv.config.js" defer></script>
+    <script src="/static/register-sw.js" defer></script>
+    <script src="/static/search.js" defer></script>
+    <script src="/static/index.js" defer></script>
 </body>
 </html>
