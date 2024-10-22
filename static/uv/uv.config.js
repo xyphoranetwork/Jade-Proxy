@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/static/jade/',
-    bare:'https://learnlotsofmathandhistoryandmore-uk.global.ssl.fastly.net/bear/',
+    bare:'https://bareserver.ubg.icu/bear/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
